@@ -1,0 +1,24 @@
+.nav-logo {
+  font-family: 'Bungee', sans-serif;
+  font-size: xx-large;
+  height: 120px;
+  width: 100vw;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.new-tweet {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 20px;
+}
+
+.down-arrow-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
