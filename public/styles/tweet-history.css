@@ -1,0 +1,86 @@
+.tweets-history {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+article {
+  border: 3px solid #514e44;
+  width: 60%;
+}
+
+article:hover {
+  box-shadow: 10px 10px lightblue;
+}
+
+.tweets-history header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+
+}
+
+.tweets-history img {
+  max-height: 4rem;
+  max-width: 4rem;
+  padding: 3px;
+  margin: 10px;
+}
+
+.user-info {
+display: flex;
+}
+
+.user-info p {
+  margin-top: 30px;
+}
+
+.username {
+  color: lightblue;
+  display: flex;
+  margin-right: 10px;
+}
+
+.user-tweet {
+  margin: 5px 36px;
+}
+
+.user-tweet p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.underline {
+  border-bottom: 4px solid #514e44;
+  margin: 10px;
+}
+
+.tweets-history footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1rem;
+
+}
+
+.tweet-date {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.tweet-date p {
+  margin: 0;
+}
+
+.tweet-icons {
+  margin-right: 10px;
+}
+
+.fa-solid:hover {
+  color: goldenrod;
+}
