@@ -3,7 +3,7 @@
 Tweeter is a simple, single-page Twitter clone, that allows users to post tweets to a Tweet feed. This app is built with HTML, CSS, JS, jQuery, and AJAX on the front end, and Node.js and Express on the back end. Tweeter is a responsive app designed to function on desktops, tablets or mobile devices.
 
 # Final Product 
-![]()
+![](https://github.com/libinali/tweeter/blob/master/docs/tweeter.gif?raw=true)
 
 ## Getting Started
 
