@@ -54,10 +54,6 @@
     width: 50px;
   }
 
-  article {
-    width: 90%;
-  }
-
 }
 
 @media (max-width: 768px) {
