@@ -1,6 +1,7 @@
 .tweets-history {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   font-size: 24px;
   margin-top: 60px;
   margin-bottom: 50px;
@@ -8,11 +9,13 @@
 
 article {
   border: 3px solid #514e44;
-  width: 60%;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 50px;
 }
 
 article:hover {
-  box-shadow: 10px 10px lightblue;
+  box-shadow: 10px 10px rgb(138, 171, 228);
 }
 
 .tweets-history header {
@@ -39,7 +42,7 @@ display: flex;
 }
 
 .username {
-  color: lightblue;
+  color: rgb(138, 171, 228);
   display: flex;
   margin-right: 10px;
 }

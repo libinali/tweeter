@@ -4,6 +4,7 @@
   height: 120px;
   width: 100vw;
   background-color: #4056A1;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   color: #FFFFFF;
   padding: 0 1.5em;
   display: flex;
@@ -21,4 +22,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+    transform: translateY(0);
+  }
+  
+  50% {
+    transform: translateY(-6px);
+  }
+  
 }

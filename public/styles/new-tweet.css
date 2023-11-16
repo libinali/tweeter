@@ -7,6 +7,10 @@
   flex-wrap: nowrap;
 }
 
+.new-tweet h2 {
+  margin: 40px 0 40px;
+}
+
 #tweet-text {
   border-style: hidden;
   border-bottom: 4px solid #514e44;
@@ -19,7 +23,7 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
 }
 
 button {
@@ -40,4 +44,19 @@ button {
 
 .counter-exceeded {
   color: red;
+}
+
+.error-message {
+  background-color: red;
+  opacity: 0.75;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 900;
+  border: 6px #fbcb0a;
+  border-radius: 10px;
+  height: 2.5rem;
+  margin: 5px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
